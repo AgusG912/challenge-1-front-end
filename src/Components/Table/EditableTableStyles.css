@@ -1,0 +1,23 @@
+.table-container {
+  background: #141414;
+  overflow: auto;
+}
+
+.ant-table-body {
+  min-height: 600px;
+  background-color: #141414;
+}
+
+.centered-table .ant-table-cell {
+  text-align: center;
+  vertical-align: middle;
+  min-width: 100px; /* <-- mínimo ancho para cada celda */
+  max-width: 300px;
+}
+
+.editable-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

@@ -1,5 +1,15 @@
 # Proyecto Challenge: Desarrollo de un Front-End Dinámico Integrado con APIs 🚀
 
+<div style="display: flex; justify-content: space-around;">
+    <span>📌 Frontend</span>
+    <span>
+      <a href="https://github.com/AgusG912/challenge-1-back-end">Backend</a>
+    </span>
+    <span>
+      <a href="https://github.com/AgusG912/challenge-1-marketplace-api">Marketplace</a>
+    </span>
+</div>
+
 Este proyecto es un challenge centrado en la construcción de un front-end funcional conectado a una API backend, que a su vez se integra con una API externa llamada Marketplace-API.
 
 La estructura del proyecto está organizada en distintas rutas, lo que permite una navegación modular y escalable. Para la gestión del estado global, se implementó Zustand con las DevTools activas, con un enfoque basado en reducers y selectors, lo que facilita un manejo eficiente de los datos.
@@ -36,20 +46,21 @@ Cada módulo está diseñado con su respectivo tipado y control de rutas, garant
 
 ## ⚡ Cómo ejecutar el proyecto
 
-- Descarga el repositorio.
+1. Descarga el repositorio.
   ```
     git clone <repo-url>
     cd ecommerce-frontend
   ```
-- Instalar las dependencias.
+
+2. Instalar las dependencias.
   ```
     npm install
   ```
-- Renombra el archivo `.env.template` a `.env` y ajusta las variables
+3. Renombra el archivo `.env.template` a `.env` y ajusta las variables
   ```
     VITE_API_URL=[Base_URL]         // ejemplo: 'http://localhost:5173'
   ```
-- Ejecutar el proyecto en desarollo.
+4. Ejecutar el proyecto en desarollo.
   ```
     npm run dev
   ```

@@ -1,14 +1,4 @@
-# Proyecto Challenge: Desarrollo de un Front-End Dinámico Integrado con APIs 🚀
-
-<div style="display: flex; justify-content: space-around;">
-    <span>📌 Frontend</span>
-    <span>
-      <a href="https://github.com/AgusG912/challenge-1-back-end">Backend</a>
-    </span>
-    <span>
-      <a href="https://github.com/AgusG912/challenge-1-marketplace-api">Marketplace</a>
-    </span>
-</div>
+# 🚀 Proyecto Challenge: Desarrollo de un Front-End Dinámico Integrado con APIs 
 
 Este proyecto es un challenge centrado en la construcción de un front-end funcional conectado a una API backend, que a su vez se integra con una API externa llamada Marketplace-API.
 
@@ -16,6 +6,18 @@ La estructura del proyecto está organizada en distintas rutas, lo que permite u
 En términos de seguridad y accesibilidad, el sistema cuenta con guards para autenticación, control de rutas y persistencia de sesión. Al igual que en proyectos anteriores, el enfoque se mantiene dinámico, lo que permite ajustes rápidos en procesos como autenticación o modificaciones en la estructura general del sistema.
 
 Cada módulo está diseñado con su respectivo tipado y control de rutas, garantizando consistencia y escalabilidad. Para las solicitudes al backend, se usa Axios, aprovechando los interceptores para modificar los headers de las peticiones. Además, se configura una variable de entorno que establece la base de las URLs de nuestras solicitudes, facilitando la gestión de entornos y la seguridad de las conexiones.
+
+<details>
+
+<summary> 📍 Este repositorio forma parte de un grupo.</summary>
+
+#### 📌 Frontend
+
+[Backend](https://github.com/AgusG912/challenge-1-back-end)
+
+[Marketplace](https://github.com/AgusG912/challenge-1-marketplace-api)
+
+</details>
 
 ## 🛠 Características principales
 - ✅ `UI con Ant Design` → Componentes avanzados y personalizables.
@@ -47,19 +49,21 @@ Cada módulo está diseñado con su respectivo tipado y control de rutas, garant
 ## ⚡ Cómo ejecutar el proyecto
 
 1. Descarga el repositorio.
-  ```
+  ``` git
     git clone <repo-url>
     cd ecommerce-frontend
   ```
 
 2. Instalar las dependencias.
-  ```
+  ``` node
     npm install
   ```
+
 3. Renombra el archivo `.env.template` a `.env` y ajusta las variables
-  ```
+  ``` env
     VITE_API_URL=[Base_URL]         // ejemplo: 'http://localhost:5173'
   ```
+
 4. Ejecutar el proyecto en desarollo.
   ```
     npm run dev

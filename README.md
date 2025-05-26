@@ -11,11 +11,13 @@ Cada módulo está diseñado con su respectivo tipado y control de rutas, garant
 
 <summary> 📍 Este repositorio forma parte de un grupo.</summary>
 
-#### 📌 Frontend
+  <br/>
 
-[Backend](https://github.com/AgusG912/challenge-1-back-end)
+ > **📌 Frontend**
 
-[Marketplace](https://github.com/AgusG912/challenge-1-marketplace-api)
+ > [Backend](https://github.com/AgusG912/challenge-1-back-end)
+
+ > [Marketplace](https://github.com/AgusG912/challenge-1-marketplace-api)
 
 </details>
 
